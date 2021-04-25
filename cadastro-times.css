@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Grid*/
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+
+header {
+    background-color: #1E1C21;
+    height: 80px;
+    width: 100%;
+}
+
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 590px;
+
+}
+
+header img {
+    width: 30%;
+    height: 55%;
+    
+}
+
+nav{
+    width: 465px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+/*Titulo*/
+
+.container_titulo {
+    background-image: url(./assets_/cadastro.png);
+    background-position: center;
+    background-repeat: round;
+    width: 100%;
+    height: 290px;
+
+}
+
+.cor {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(35, 92, 153, 0.67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cor h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+/*Cadastro Times*/
+
+.fundo_cadastro {
+    background-color: #1E1C21;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dados {
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(48,48,48,1) 23%, rgba(48,48,48,1) 68%, rgba(0,0,9,1) 100%);
+    height: 360px;
+    width: 765px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_cadastro {
+    height: 222px;
+    width: 575px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prencher {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.prencher span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 21px;
+}
+
+
+.label {
+    background-color: #544f4f;
+    padding: 2px 10px;
+    font-size: 18px;
+    height: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.input{
+    height: 33px;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    background-color: #ABABAB;
+}
+
+.container_cadastro button{
+    width: 270px;
+    height: 45px;
+    background-color: #001F70;
+    border-radius: 10px;
+    border: none;
+}
+
+.container_cadastro button span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*times*/
+
+.times {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.times h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 62px;
+}
+
+table{
+    border: 2px solid white;
+    width: 770px;
+    border-collapse: collapse;
+}
+
+.times th{
+    background-color: black;
+    border-left: 1px solid black;
+    padding-left: 20px;
+    color: white;
+    height: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: start;
+}
+
+.times td{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    height: 58px;
+    padding-left: 25px;
+}
+
+table img{
+    height: 50px;
+}
+
+/*footer*/
+
+footer{
+    background-color: black;
+    height: 350px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.container_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_links {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.container_links span{
+    font-family:'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.container_links li {
+    color: white;
+}
+
+.container_links a {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.faça_parte {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.siga .segue {
+    font-family: 'Titillium Web', sans-serif;
+    color: white; 
+    font-size: 20px;
+}
+
+.siga img {
+    height: 40px;
+    width: 40px;
+}
+
+.cadastrar {
+    display: flex;
+}
+
+.cadastrar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #110070;
+    height: 40px;
+    width: 120px;
+}
+
+.cadastrar a span {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    width: 330px;
+}
